@@ -4,6 +4,6 @@ from ultralytics import YOLO
 model = YOLO("yolo11n.pt")
 
 # Perform object detection on an image 
-results = model("test/001.jpg")
+results = model("test/004.jpg")
 results[0].show()
 
