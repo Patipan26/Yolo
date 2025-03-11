@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['buldog', 'golden', 'sheperd']
+
+roboflow:
+  workspace: patipan-xpfce
+  project: my-first-project-hrqct
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/patipan-xpfce/my-first-project-hrqct/dataset/1
